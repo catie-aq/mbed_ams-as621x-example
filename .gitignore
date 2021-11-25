@@ -3,3 +3,8 @@ projectfiles
 *.py*
 
 # Do NOT ignore files below
+BUILD
+.mbed
+mbed-os
+zest-core-mtxdot
+ams-as621x
