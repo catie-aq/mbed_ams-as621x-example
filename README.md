@@ -4,25 +4,27 @@ A simple demo using an AS6212 to demonstrate some of the data that can be retrie
 ## Requirements
 ### Hardware requirements
 The following boards are required:
-- *List AMS AS621x example hardware requirements here*
+- Zest Sensor T-RH
+- Zest Core MTXDot
 
 ### Software requirements
 AMS AS621x example makes use of the following libraries (automatically
 imported by `mbed deploy` or `mbed import`):
-- *List AMS AS621x example software requirements here*
+- ams-as621x
+- zest-core-mtxdot
 
 ## Usage
 To clone **and** deploy the project in one command, use `mbed import` and skip to the
 target enabling instructions:
 ```shell
-mbed import "Enter URL here" ams-as621x-example
+mbed import https://gitlab.com/koncepto/CATIE/3sqair/software/ams-621x-example.git ams-as621x-example
 ```
 
 Alternatively:
 
 - Clone to "ams-as621x-example" and enter it:
   ```shell
-  git clone "Enter URL here" ams-as621x-example
+  git clone https://gitlab.com/koncepto/CATIE/3sqair/software/ams-621x-example.git ams-as621x-example
   cd ams-as621x-example
   ```
 
