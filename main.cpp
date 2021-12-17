@@ -18,9 +18,7 @@ int main()
     AS621X::Config_t cfg;
     double t;
 
-    I2C i2c(I2C_SDA, I2C_SCL);
-    i2c.frequency(100000);
-    AS621X sensor(&i2c, AS621X::Add1Pin::SCL, AS621X::Add0Pin::VSS);
+    AS621X sensor(I2C1_SDA, I2C1_SCL, AS621X::Add1Pin::PullUp_VDD, AS621X::Add0Pin::VSS);
 
     printf("\n\n-------------------\n");
     printf("--- AS621X Demo ---\n");
