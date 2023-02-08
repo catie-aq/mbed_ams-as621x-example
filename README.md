@@ -44,7 +44,7 @@ mbed compile
 ```
 
 Program the target device with a Segger J-Link debug probe and
-[`sixtron_flash`](https://gitlab.com/catie_6tron/6tron-flash) tool:
+[`sixtron_flash`](https://github.com/catie-aq/6tron-flash) tool:
 ```shell
 sixtron_flash stm32l151cc BUILD/ZEST_CORE_MTXDOT/GCC_ARM/ams-as621x-example.elf
 ```
